@@ -19,7 +19,8 @@ body {
   padding: 10px;
   margin: 10px;
   border: 2px dashed #d6f8b8;
-
+  transition: all .07s ease;
+  text-shadow: 0 0 .1rem #000;
 }
 
 kbd {
