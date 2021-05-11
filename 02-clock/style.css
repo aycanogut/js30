@@ -48,9 +48,11 @@ body {
   background: #fff;
   position: absolute;
   top: 49%;
-  transform-origin: ;
-  box-shadow:
-    0 0 0 1px rgba(78, 65, 65, 0.1),
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  box-shadow: 0 0 0 1px rgba(78, 65, 65, 0.1),
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px rgb(0, 0, 0),
     0 0 5px rgba(172, 106, 106, 0.2);
