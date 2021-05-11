@@ -10,11 +10,11 @@ body {
   width: 20em;
   height: 20em;
   position: relative;
-  border: 10px solid rgb(255, 255, 255);
+  border: 10px solid rgb(230, 230, 230);
   border-radius: 50%;
   box-shadow:
     0 0 0 4px rgba(255, 255, 255, 0.1),
-    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 0 3px #d4d4d4,
     inset 0 0 10px rgb(165, 140, 140),
     0 0 10px rgba(255, 255, 255, 0.2);
 }
@@ -50,7 +50,7 @@ body {
   top: 49%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
+  /* transition: all 0.05s; */
   transition-timing-function: cubic-bezier(2, 1, 1, 0.4);
 
 }
