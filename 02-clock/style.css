@@ -1,0 +1,57 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgb(197, 160, 176);
+  background: radial-gradient(circle, rgb(199, 157, 175) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.clock {
+  width: 20em;
+  height: 20em;
+  position: relative;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px rgba(255, 255, 255, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px rgb(165, 140, 140),
+    0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  /* account for the height of the clock hands */
+}
+
+.dot {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 47%;
+  left: 47%;
+  border: 10px solid rgb(235, 232, 232);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px rgba(255, 255, 255, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px rgb(165, 140, 140),
+    0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.hand {
+  width: 50%;
+  height: 7px;
+  background: #fff;
+  position: absolute;
+  top: 49%;
+  transform-origin: ;
+  box-shadow:
+    0 0 0 1px rgba(78, 65, 65, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px rgb(0, 0, 0),
+    0 0 5px rgba(172, 106, 106, 0.2);
+}
