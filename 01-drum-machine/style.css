@@ -19,12 +19,12 @@ body {
   padding: 10px;
   margin: 10px;
   border: 2px dashed #d6f8b8;
-  transition: all .15s ease;
+  transition: all .10s ease;
   text-shadow: 0 0 .1rem #000;
 }
 
 .playing {
-  transform: scale(1.1);
+  transform: scale(1.2);
   border-color: #000;
   border: 5px dotted;
   border-radius: 20px;
