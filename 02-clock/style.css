@@ -52,8 +52,26 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(2, 1, 1, 0.4);
+
+}
+
+.hand-hour {
   box-shadow: 0 0 0 1px rgba(78, 65, 65, 0.1),
-    inset 0 0 0 3px #EFEFEF,
-    inset 0 0 10px rgb(0, 0, 0),
+    inset 0 0 0 3px #c9c9c9,
+    inset 0 0 10px rgba(126, 8, 8, 0.486),
+    0 0 5px rgba(172, 106, 106, 0.2);
+}
+
+.hand-minute {
+  box-shadow: 0 0 0 1px rgba(78, 65, 65, 0.1),
+    inset 0 0 0 3px #cab3b3,
+    inset 0 0 10px rgb(3, 85, 74),
+    0 0 5px rgba(172, 106, 106, 0.2);
+}
+
+.hand-second {
+  box-shadow: 0 0 0 1px rgba(78, 65, 65, 0.1),
+    inset 0 0 0 3px #ccbebe,
+    inset 0 0 10px rgb(126, 62, 62),
     0 0 5px rgba(172, 106, 106, 0.2);
 }
