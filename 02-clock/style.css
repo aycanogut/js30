@@ -37,7 +37,7 @@ body {
   border-radius: 50%;
   box-shadow:
     0 0 0 4px rgba(255, 255, 255, 0.1),
-    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 0 3px #b6b1b1,
     inset 0 0 10px rgb(165, 140, 140),
     0 0 10px rgba(255, 255, 255, 0.2);
 }
@@ -51,7 +51,7 @@ body {
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transition-timing-function: cubic-bezier(2, 1, 1, 0.4);
   box-shadow: 0 0 0 1px rgba(78, 65, 65, 0.1),
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px rgb(0, 0, 0),
