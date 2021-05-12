@@ -1,4 +1,4 @@
-What I learn on this project: 
+What I have learned in this project:
 
 - Getting the sounds from HTML with data-attributes.
 - Catching the keystrokes.
