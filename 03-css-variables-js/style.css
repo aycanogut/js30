@@ -1,3 +1,9 @@
+:root {
+  --base: rgb(45, 96, 207);
+  --spacing: 10px;
+  --blur: 10px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,13 +12,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 50px;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-
+  background-color: rgb(184, 184, 184);
 }
 
 h1 {
   font-size: 50px;
-  text-shadow: 3px 3px #63befa;
+  text-shadow: 3px 3px rgb(149, 131, 185);
 }
 
 .controls {
@@ -25,7 +30,7 @@ h1 {
 label,
 input {
   margin: 4px;
-  text-shadow: 2px 2px #63befa;
+  text-shadow: 2px 2px rgb(149, 131, 185);
 
 }
 
@@ -38,4 +43,13 @@ img {
   width: 75%;
   margin: 50px auto 20px auto;
   border-radius: 5px;
+
+  /* define default variables */
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.js {
+  color: var(--base);
 }
